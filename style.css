@@ -159,3 +159,15 @@ footer a { color: var(--muted); margin-right: 18px; }
   .clabel { padding: 14px 18px 0; }
   .ccell::before { content: attr(data-col); display: block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
 }
+
+/* two columns, no label column: each cell names its own row */
+.crow { grid-template-columns: 1fr 1fr; }
+.ccell, .ccol { min-width: 0; overflow-wrap: anywhere; }
+.rl { display: block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-bottom: 3px; }
+@media (max-width: 800px) {
+  .crow { grid-template-columns: 1fr; }
+  .chead { grid-template-columns: 1fr 1fr; }
+  .ccell::before { content: none; }
+  .rl::after { content: " · " attr(data-col); }
+  .ccell + .ccell { border-top: 1px dashed var(--line); }
+}
