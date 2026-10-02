@@ -136,38 +136,3 @@ footer a { color: var(--muted); margin-right: 18px; }
 .plans .plan .badge-plus { text-transform: none; letter-spacing: 0; font-size: 12px; }
 .plans .plans-fine { grid-column: 1 / -1; margin: 0; }
 @media (max-width: 800px) { .plus.plans { grid-template-columns: 1fr; } }
-
-/* Free / Plus compared row by row */
-.plus.plans { display: block; padding: 44px; }
-.plans .plans-head { margin-bottom: 28px; }
-.compare { border: 1px solid var(--line); border-radius: 22px; overflow: hidden; }
-.crow { display: grid; grid-template-columns: 150px 1fr 1fr; align-items: stretch; border-top: 1px solid var(--line); }
-.crow:first-child { border-top: 0; }
-.clabel { padding: 16px 18px; font-weight: 600; font-size: 15px; color: var(--muted); display: flex; align-items: center; }
-.ccell, .ccol { padding: 16px 20px; font-size: 16px; line-height: 1.5; }
-.ccell.featured, .ccol.featured { background: color-mix(in srgb, var(--sage) 12%, transparent); }
-.chead .ccol h3 { margin: 0; font-size: 24px; letter-spacing: -.015em; }
-.chead .ccol p { margin: 4px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
-.ccell .no { color: var(--muted); opacity: .7; }
-.ccell .inc { color: var(--sage); font-weight: 600; }
-.ccell .inc::before { content: "✓ "; }
-@media (max-width: 800px) {
-  .plus.plans { padding: 24px; }
-  .crow { grid-template-columns: 1fr; }
-  .chead .clabel { display: none; }
-  .chead { grid-template-columns: 1fr 1fr; }
-  .clabel { padding: 14px 18px 0; }
-  .ccell::before { content: attr(data-col); display: block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
-}
-
-/* two columns, no label column: each cell names its own row */
-.crow { grid-template-columns: 1fr 1fr; }
-.ccell, .ccol { min-width: 0; overflow-wrap: anywhere; }
-.rl { display: block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-bottom: 3px; }
-@media (max-width: 800px) {
-  .crow { grid-template-columns: 1fr; }
-  .chead { grid-template-columns: 1fr 1fr; }
-  .ccell::before { content: none; }
-  .rl::after { content: " · " attr(data-col); }
-  .ccell + .ccell { border-top: 1px dashed var(--line); }
-}
