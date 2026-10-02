@@ -8,3 +8,9 @@ if ("IntersectionObserver" in window) {
 } else {
   els.forEach((e) => e.classList.add("in"));
 }
+
+// Respect "reduce motion": the preview video then waits for a tap instead of autoplaying.
+const reel = document.getElementById("reel");
+if (reel && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  reel.removeAttribute("autoplay"); reel.pause(); reel.controls = true;
+}
