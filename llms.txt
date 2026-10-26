@@ -1,0 +1,11 @@
+# Liunian
+
+> Liunian is a private voice, photo, video and text notebook for iPhone. It is available on the App Store.
+
+- Website: https://liunianai.com/
+- App Store: https://apps.apple.com/us/app/liunian-voice-video-notes/id6816302206
+- Support: https://liunianai.com/support/
+- Privacy policy: https://liunianai.com/privacy/
+- Terms of use: https://liunianai.com/terms/
+
+Liunian records notes on a timeline and transcribes voice and video on iPhone by default. Notes stay on the device and, when enabled, sync through the user's own iCloud. No Liunian account is required. Plus includes AI Daily, Polished Transcript and a personal knowledge base. AI features and optional cloud transcription can send selected content to the Liunian service after the user agrees; the privacy policy describes exactly what each feature sends.
