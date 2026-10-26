@@ -3,6 +3,7 @@
 > Liunian is a private voice, photo, video and text notebook for iPhone. It is available on the App Store.
 
 - Website: https://liunianai.com/
+- Use cases: https://liunianai.com/use-cases/
 - App Store: https://apps.apple.com/us/app/liunian-voice-video-notes/id6816302206
 - Support: https://liunianai.com/support/
 - Privacy policy: https://liunianai.com/privacy/
