@@ -10,3 +10,5 @@
 - Terms of use: https://liunianai.com/terms/
 
 Liunian records notes on a timeline and transcribes voice and video on iPhone by default. Notes stay on the device and, when enabled, sync through the user's own iCloud. No Liunian account is required. Plus includes AI Daily, Polished Transcript and a personal knowledge base. AI features and optional cloud transcription can send selected content to the Liunian service after the user agrees; the privacy policy describes exactly what each feature sends.
+
+Notes can be added to the built-in To-Do list or given reminders. A note with a reminder offers Add to Calendar through the iPhone's calendar editor; this creates a separate event after the user reviews and confirms it, with no two-way sync. The Plus knowledge base connects people, places and topics mentioned in notes and lets the user open associated source notes. Markdown export supports continued organization in tools such as Obsidian.
