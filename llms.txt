@@ -1,14 +1,60 @@
-# Liunian
+# Liunian (流念)
 
-> Liunian is a private voice, photo, video and text notebook for iPhone. It is available on the App Store.
+> Liunian is a private voice, photo, video and text notebook for iPhone, with default on-device speech transcription and private iCloud sync. No Liunian account is required.
 
 - Website: https://liunianai.com/
-- Use cases: https://liunianai.com/use-cases/
-- App Store: https://apps.apple.com/us/app/liunian-voice-video-notes/id6816302206
-- Support: https://liunianai.com/support/
-- Privacy policy: https://liunianai.com/privacy/
-- Terms of use: https://liunianai.com/terms/
+- Use cases & workflows: https://liunianai.com/use-cases/
+- App Store (iPhone): https://apps.apple.com/us/app/liunian-voice-video-notes/id6816302206
+- Support & FAQ: https://liunianai.com/support/
+- Privacy Policy: https://liunianai.com/privacy/
+- Terms of Use: https://liunianai.com/terms/
+- Contact: mailto:support@liunianai.com
 
-Liunian records notes on a timeline and transcribes voice and video on iPhone by default. Notes stay on the device and, when enabled, sync through the user's own iCloud. No Liunian account is required. Plus includes AI Daily, Polished Transcript and a personal knowledge base. AI features and optional cloud transcription can send selected content to the Liunian service after the user agrees; the privacy policy describes exactly what each feature sends.
+## Key Facts & Specifications
 
-Notes can be added to the built-in To-Do list or given reminders. A note with a reminder offers Add to Calendar through the iPhone's calendar editor; this creates a separate event after the user reviews and confirms it, with no two-way sync. The Plus knowledge base connects people, places and topics mentioned in notes and lets the user open associated source notes. Markdown export supports continued organization in tools such as Obsidian.
+- **App Name**: Liunian: Voice & Video Notes (Chinese name: 流念 - 随手记下此刻)
+- **Platform**: iOS (iPhone)
+- **Category**: Productivity / Lifestyle (Note-Taking, Voice & Video Journal, Personal Knowledge Management)
+- **Account Requirement**: None. No sign-up, login, user profile or tracking.
+- **Storage & Sync**: Notes, photos, videos, voice recordings, reminders and to-dos are stored locally on the user's iPhone and, when enabled, synced through the user's private Apple iCloud account (CloudKit private database).
+- **Default Transcription**: Voice notes and video audio are transcribed on the iPhone by default, with timestamps, at no additional cost.
+- **Search Scope**: Full-text search across written note text and audio/video transcripts, grouped by day on a timeline.
+- **Languages Supported**: English (`en-US`) and Simplified Chinese (`zh-Hans`).
+- **Export Capabilities**: Individual note sharing, Add to Calendar (via the iPhone's calendar editor), and Markdown export of the personal knowledge base for tools such as Obsidian (Plus).
+
+## Core Workflows
+
+1. **Fast Multimodal Capture (Voice, Video, Photo, Text & Share Sheet)**
+   - **Hold to talk**: Press and hold the microphone bar to record a voice note; release to save it to the timeline with an on-device transcript.
+   - **Tap for photo, hold for video**: Capture a photo or hold to shoot a short video (up to 30 seconds on Free, up to 90 seconds on Plus). Spoken words in videos are transcribed on device.
+   - **Lock Screen & Control Center button**: Add Liunian's control to the Lock Screen or Control Center to open Liunian ready to record after unlocking the iPhone.
+   - **Share from any app**: Share a link, text or photos from Safari or other apps to Liunian with a note on why you saved it; shared items land in **Review Later**.
+2. **Action & Follow-Through (To-Do, Reminders, Review Later & Calendar)**
+   - **To-Do & Review Later**: Manually add any note to the built-in To-Do list or save it in Review Later so rough ideas and reading sparks don't clutter active tasks. Open the original note from To-Do to recover its full context (audio, video, photo or text) and check it off when done.
+   - **Reminders & Add to Calendar**: Set a one-time or repeating reminder on a note. A note with a reminder offers **Add to Calendar** through the iPhone's native calendar editor, creating a separate calendar event after the user reviews and confirms it.
+3. **Spatial & Temporal Review (Timeline, Footprint & Dashboard)**
+   - **Timeline**: Notes are grouped by day with a fast month-jumping rail and five visual note styles (Default, Sticker, Journal, Washi, Manga) in light and dark mode.
+   - **Footprint**: When optional location permission is granted, notes appear on a private map so revisiting a place brings back what was captured there.
+   - **Dashboard**: A monthly overview of captured notes and pending actions.
+4. **AI Organization & Obsidian Knowledge Reuse (Plus)**
+   - **AI Daily**: Generates a written daily recap from a chosen day's notes.
+   - **Polished Transcript**: Turns spoken transcripts into clean, readable written text without filler words.
+   - **Personal Knowledge Base**: Connects people, places, projects and topics mentioned across notes into a relationship graph and entity pages, with direct provenance links back to source notes and **Markdown export** for continued organization in **Obsidian**.
+
+## Plans & Pricing
+
+- **Free Plan ($0)**:
+  - Unlimited voice notes (up to 60 seconds each) and video notes (up to 30 seconds each), plus photo and text notes.
+  - Unlimited on-device transcripts with timestamps for every voice and video note.
+  - Timeline, full-text search, To-Do, Reminders, Review Later, Add to Calendar, Footprint map, Dashboard, Lock Screen button, Share Sheet extension, and private iCloud sync.
+  - Zero third-party data processing by default.
+- **Plus Subscription (Auto-renewing monthly via Apple Account, with 14-day free trial for new subscribers)**:
+  - Everything in Free, plus 3× longer recordings (up to 3 minutes for voice notes, up to 90 seconds for video notes).
+  - All AI features included: **AI Daily**, **Polished Transcript**, and the **Personal Knowledge Base** with **Markdown export**.
+
+## Explicit Product Boundaries & Privacy Commitments
+
+- **No hands-free recording while locked**: The Lock Screen / Control Center button opens Liunian into its recording view after the user unlocks the phone; it does not record covertly or without unlocking.
+- **Manual task & calendar control**: Liunian does not automatically turn every spoken sentence into a task or calendar entry. The user decides which notes become To-Dos or reminders, and Add to Calendar creates a separate confirmed event rather than a two-way calendar sync.
+- **Transparent AI data handling**: By default, notes never leave the user's device and private iCloud. AI features (Plus) and optional cloud transcription send only the specific content required for that request after explaining what is sent and obtaining user consent. User content is never sold, used for advertising, or used to train AI models.
+- **One-step data deletion**: Users can delete individual notes or use *Settings → Data → Delete all data* to remove all notes, files, AI Daily summaries and the knowledge base from their device and iCloud in one step.
