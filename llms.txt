@@ -4,6 +4,9 @@
 
 - Website: https://liunianai.com/
 - Use cases & workflows: https://liunianai.com/use-cases/
+- Workflow – Voice Notes to Obsidian (Plus): https://liunianai.com/workflows/voice-notes-to-obsidian/
+- Workflow – Private On-Device Transcription: https://liunianai.com/workflows/private-offline-transcription/
+- Workflow – Apple Voice Memos Alternative: https://liunianai.com/workflows/apple-voice-memos-alternative/
 - App Store (iPhone): https://apps.apple.com/us/app/liunian-voice-video-notes/id6816302206
 - Support & FAQ: https://liunianai.com/support/
 - Privacy Policy: https://liunianai.com/privacy/
